@@ -15,11 +15,12 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1",
+    "style-loader": "^4.0.0"
   },
   "eslintConfig": {
     "extends": [
@@ -39,10 +40,13 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "css-loader": "^7.1.2",
-    "sass": "^1.77.8",
-    "sass-loader": "^16.0.1",
-    "style-loader": "^4.0.0"
+  "homepage": "https://n4mborgh1n1.github.io/portfolioV2/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
