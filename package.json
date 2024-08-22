@@ -40,7 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://n4mborgh1n1.github.io/portfolioV2/",
+  "homepage": "/portfolioV2/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

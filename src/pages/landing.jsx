@@ -19,19 +19,19 @@ const Landing = () => {
                 </nav>
             </header>
             <main>
-                <Card className="card">
+                <Card className={'card'}>
                     <h1 id="greeting">
                         Hi, I am <span className="highlight">Nam.</span>
                     </h1>
                     <p className="intro">
-                        An aspiring <span className="highlight">Software Developer</span> from Berlin, <br /> blending
+                        A passionate <span className="highlight">Software Developer</span> from Berlin, <br /> blending
                         aesthetics and technology with <span className="highlight">passion</span>.
                     </p>
                     <div>
                         <Button className={'view-btn'} label="View Portfolio">
-                            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
+                                <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
+                                <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
                             </svg>{' '}
                         </Button>
                         </div>
@@ -46,7 +46,6 @@ const Landing = () => {
 
             <footer>
             <div>
-                        <h3 className="gitTitel">Get In Touch</h3>
                         <div className={'icon-container'}>
                             <img src={github} alt="github" className={'github-icon'} />
                             <a href="https://github.com/n4mborgh1n1" className={'github'}>

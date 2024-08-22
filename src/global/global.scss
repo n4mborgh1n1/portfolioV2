@@ -13,16 +13,17 @@ a
   }
 
   .card {
-    background-color: rgba(60, 60, 60, 0.239);
+    background-color: rgba(74, 74, 74, 0.239);
     border-radius: 10px;
+    border: 0.5px solid #ffffff71;
     padding: 1rem;
-    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: calc(100% - 10rem);
+    max-width: calc(100% - 50rem);
+    min-width: 25rem;
     height: 25%;
     margin: 10rem auto 0 auto;
   }
@@ -38,11 +39,11 @@ a
   }
 
   footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #00000093;
+    background-color: #00000065;
     text-align: center;
     padding: 1rem;
   }
