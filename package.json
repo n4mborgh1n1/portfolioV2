@@ -40,7 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/portfolioV2/",
+  "homepage": "/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
